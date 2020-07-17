@@ -1,0 +1,23 @@
+
+Z
+java:S11280"8Remove this unused import 'java.util.function.Consumer'.(Ì†ƒÔùÿÿÿÿ8„ªÅƒ©.
+y
+java:S3252a"WUse static access with "androidx.core.content.ContextCompat" for "checkSelfPermission".(¹«Èìüÿÿÿÿ8„ªÅƒ©.
+L
+java:S5411d"*Use the primitive boolean expression here.(¨·ÚŞşÿÿÿÿ8„ªÅƒ©.
+A
+java:S1148"#Use a logger to log this exception.(Ç’Çê8„ªÅƒ©.
+=
+java:S1170:"!Make this final field static too.(İíu8„ªÅƒ©.
+K	java:S108ñ")Either remove or fill this block of code.(ö…’èøÿÿÿÿ8„ªÅƒ©.
+u
+java:S14508"SRemove the "mMap" field and declare it as a local variable in the relevant methods.(—­ƒÌÿÿÿÿÿ8„ªÅƒ©.
+F
+java:S1148…"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8„ªÅƒ©.
+x
+java:S1192ˆ"UDefine a constant instead of duplicating this literal "Something went wrong" 3 times.(ïŞŠ’øÿÿÿÿ8„ªÅƒ©.
+Q
+java:S1128."4Remove this unused import 'java.lang.reflect.Array'.(‡¡É˜8„ªÅƒ©.
+s
+java:S3252b"WUse static access with "androidx.core.content.ContextCompat" for "checkSelfPermission".(íóä8„ªÅƒ©.
+s	java:S116:"XRename this field "PERMISSION_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İíu8„ªÅƒ©.

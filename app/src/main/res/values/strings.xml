@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DAS</string>
+    <string name="title_activity_nearest_hospital">Map</string>
+    <string name="title_activity_nearest_police_station">Map</string>
+    <string name="invalid_format">Invalid Format</string>
+    <string name="missing_field">Missing Field</string>
+    <string name="distress_alert_success_message">Distress Alert Sent</string>
+</resources>

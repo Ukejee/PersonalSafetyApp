@@ -1,0 +1,5 @@
+
+r	java:S116"VRename this field "postal_code" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÛòÛ—8¢èàô«.
+r	java:S117i"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®ëóàøÿÿÿÿ8åƒõ«.
+i	java:S100e"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œ¸æH8åƒõ«.
+o	java:S100i"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®ëóàøÿÿÿÿ8åƒõ«.

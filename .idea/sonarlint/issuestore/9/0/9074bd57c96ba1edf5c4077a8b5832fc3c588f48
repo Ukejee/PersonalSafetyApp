@@ -1,0 +1,11 @@
+
+s
+java:S1450"]Remove the "mAccelerometer" field and declare it as a local variable in the relevant methods.(ŸÔ®
+x
+java:S1450"]Remove the "mSensorManager" field and declare it as a local variable in the relevant methods.(Ü†‚µùÿÿÿÿ
+x
+java:S1450"]Remove the "mShakeDetector" field and declare it as a local variable in the relevant methods.(¡Üîšÿÿÿÿÿ
+—
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Î¢È
+œ
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ãÁÖşÿÿÿÿ

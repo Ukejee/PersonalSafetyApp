@@ -1,0 +1,11 @@
+
+>
+java:S1148e"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+>
+java:S1148q"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+~
+java:S1488+"cImmediately return this expression instead of assigning it to the temporary variable "currentDate".(şã‹Óùÿÿÿÿ
+n
+java:S3008"XRename this field "LOGGER_HANDLE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†ôß
+}
+java:S3252{"gUse static access with "com.google.android.material.snackbar.BaseTransientBottomBar" for "LENGTH_LONG".( Ò§

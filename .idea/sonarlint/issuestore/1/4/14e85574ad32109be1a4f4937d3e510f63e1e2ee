@@ -1,0 +1,21 @@
+
+:
+java:S1148Œ"#Use a logger to log this exception.(Ç’Çê
+?
+java:S1148†"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+n
+java:S14505"SRemove the "mMap" field and declare it as a local variable in the relevant methods.(—­ƒÌÿÿÿÿÿ
+q
+java:S1192†"UDefine a constant instead of duplicating this literal "Something went wrong" 3 times.(ïŞŠ’øÿÿÿÿ
+l	java:S1167"XRename this field "PERMISSION_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İíu
+l
+java:S3252`"WUse static access with "androidx.core.content.ContextCompat" for "checkSelfPermission".(íóä
+D	java:S108ò")Either remove or fill this block of code.(ö…’èøÿÿÿÿ
+}
+java:S4165O"bRemove this useless assignment; "mMap" already holds the assigned value along all execution paths.(àŠëÈşÿÿÿÿ
+E
+java:S5411b"*Use the primitive boolean expression here.(¨·ÚŞşÿÿÿÿ
+r
+java:S3252_"WUse static access with "androidx.core.content.ContextCompat" for "checkSelfPermission".(¹«Èìüÿÿÿÿ
+6
+java:S11707"!Make this final field static too.(İíu

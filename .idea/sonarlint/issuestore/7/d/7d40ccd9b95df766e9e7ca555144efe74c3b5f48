@@ -1,0 +1,11 @@
+
+]
+java:S1128";Remove this unused import 'android.hardware.SensorManager'.(ªè½ôûÿÿÿÿ8Ô”½­±.
+\
+java:S1128":Remove this unused import 'com.ukejee.das.utils.AppUtils'.(…ß€úÿÿÿÿ8Ô”½­±.
+S
+java:S1128
+"1Remove this unused import 'android.widget.Toast'.(©›ïÍúÿÿÿÿ8Ô”½­±.
+V
+java:S1128"4Remove this unused import 'android.hardware.Sensor'.(á¥ı”úÿÿÿÿ8Ô”½­±.
+{	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(«ˆ›Ëıÿÿÿÿ8Ô”½­±.

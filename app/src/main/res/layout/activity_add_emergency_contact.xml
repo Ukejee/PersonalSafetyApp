@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddEmergencyContactActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/app_main_color"
+        android:elevation="3dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/back_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/toolbar_back_icon"
+                android:tint="@android:color/white"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Emergency Contacts"
+                android:textColor="@android:color/white"
+                android:textSize="22sp"
+                android:layout_marginStart="4dp"
+                android:layout_toEndOf="@id/back_btn"
+                android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+        <EditText
+            android:id="@+id/name_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginTop="24dp"
+            android:paddingStart="4dp"
+            android:paddingEnd="4dp"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:maxLines="1"
+            android:maxLength="30"
+            android:textSize="20sp"
+            android:fontFamily="@font/roboto"
+            android:textColorHint="@color/app_black"
+            android:textColor="@color/app_black"
+            app:layout_constraintTop_toBottomOf="@id/toolbar"/>
+
+        <EditText
+            android:id="@+id/phone_no_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="24dp"
+            android:paddingStart="4dp"
+            android:paddingEnd="4dp"
+            android:hint="Phone Number(with country code)"
+            android:inputType="phone"
+            android:maxLines="1"
+            android:maxLength="30"
+            android:textSize="20sp"
+            android:fontFamily="@font/roboto"
+            android:textColorHint="@color/app_black"
+            android:textColor="@color/app_black"
+            app:layout_constraintTop_toBottomOf="@id/name_input"/>
+
+        <Button
+            android:id="@+id/save_button"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Save"
+            android:textColor="@android:color/white"
+            android:background="@drawable/button_ripple"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/phone_no_input"/>
+
+        <Button
+            android:id="@+id/cancel_button"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Cancel"
+            android:textColor="@android:color/white"
+            android:background="@drawable/cancel_button_background"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="12dp"
+            app:layout_constraintEnd_toStartOf="@id/save_button"
+            app:layout_constraintTop_toBottomOf="@id/phone_no_input"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
